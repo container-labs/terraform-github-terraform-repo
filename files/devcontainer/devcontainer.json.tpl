@@ -1,14 +1,7 @@
 {
   "name": "Container Labs Terraform",
   "extensions": [
-      "coenraads.bracket-pair-colorizer-2",
-      "cschleiden.vscode-github-actions",
-      "eamodio.gitlens",
-      "github.vscode-pull-request-github",
-      "ms-azuretools.vscode-docker",
-      "ms-vsliveshare.vsliveshare",
-      "vscode-icons-team.vscode-icons",
-      "visualstudioexptteam.vscodeintellicode"
+      "hashicorp.terraform"
   ],
   "dockerFile": "Dockerfile",
   "settings": {
