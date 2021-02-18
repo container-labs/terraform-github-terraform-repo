@@ -20,11 +20,11 @@ variable "vscode_enabled" {
 }
 
 variable "workspace_image_tag" {
-  default = null
+  default = ""
   type    = string
 }
 
 variable "workspace_image_digest" {
-  default = null
+  default = ""
   type    = string
 }
