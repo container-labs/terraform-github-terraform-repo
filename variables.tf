@@ -18,3 +18,8 @@ variable "vscode_enabled" {
   type        = bool
   description = "if enabled, writes vscode workspace settings"
 }
+
+variable "workspace_image_tag" {
+  default = "latest"
+  type    = string
+}

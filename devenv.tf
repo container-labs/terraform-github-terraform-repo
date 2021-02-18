@@ -1,6 +1,7 @@
 module "devenv" {
-  source          = "container-labs/devenv-repo/github"
-  version         = "~> 0.2"
-  repository      = var.repository
-  workspace_image = "terraform"
+  source              = "container-labs/devenv-repo/github"
+  version             = "~> 0.3"
+  repository          = var.repository
+  workspace_image     = "terraform"
+  workspace_image_tag = var.workspace_image_tag
 }
