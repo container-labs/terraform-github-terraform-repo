@@ -4,7 +4,7 @@ variable "repository" {
 }
 
 variable "dependabot_enabled" {
-  default = false
+  default = true
   type    = bool
 }
 
